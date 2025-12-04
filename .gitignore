@@ -1,4 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
+# Virtual env
+.venv/
+venv/
+
+# YOLO runs and weights
+runs/
+*.pt
+
+# Datasets
+Clash Royale Card Detection.v1-dec-4-final.yolov8/
+
+# Images / debug outputs
+cards/
+debug_*.png
+hand_test*.png
+*.jpg
+
+# OS junk
+.DS_Store
 .venv/
 __pycache__/
 *.pyc

@@ -2,7 +2,7 @@
 from ultralytics import YOLO
 
 # Adjust this path if your run folder name is different
-MODEL_PATH = "runs/detect/train/weights/best.pt"
+MODEL_PATH = "runs/detect/train2/weights/best.pt"
 
 def load_local_model():
     """Load the trained YOLOv8 model for Clash Royale cards."""
