@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 155
+names: ['archer-queen', 'archers', 'archers-evo', 'arrows', 'baby-dragon', 'balloon', 'bandit', 'barbarian-barrel', 'barbarian-hut', 'barbarians', 'barbarians-evo', 'bats', 'bats-evo', 'battle-healer', 'battle-ram', 'battle-ram-evo', 'beserker', 'bomb-tower', 'bomber', 'bomber-evo', 'boss-bandit', 'bowler', 'cannon', 'cannon-cart', 'cannon-evo', 'clone', 'dark-prince', 'dart-goblin', 'dart-goblin-evo', 'earthquake', 'electro-dragon', 'electro-dragon-evo', 'electro-giant', 'electro-spirit', 'electro-wizard', 'elite-barbarians', 'elixir-collector', 'elixir-golem', 'executioner', 'executioner-evo', 'fire-spirit', 'fireball', 'firecracker', 'firecracker-evo', 'fisherman', 'flying-machine', 'freeze', 'furnace', 'giant', 'giant-skeleton', 'goblin-barrel', 'goblin-barrel-evo', 'goblin-cage', 'goblin-cage-evo', 'goblin-curse', 'goblin-demolisher', 'goblin-drill', 'goblin-drill-evo', 'goblin-gang', 'goblin-giant', 'goblin-giant-evo', 'goblin-hut', 'goblin-machine', 'goblins', 'goblinstein', 'golden-knight', 'golem', 'graveyard', 'guards', 'heal-spirit', 'hog-rider', 'hunter', 'hunter-evo', 'ice-golem', 'ice-spirit', 'ice-spirit-evo', 'ice-wizard', 'inferno-dragon', 'inferno-dragon-evo', 'inferno-tower', 'knight', 'knight-evo', 'lava-hound', 'lightning', 'little-prince', 'lumberjack', 'lumberjack-evo', 'magic-archer', 'mega-knight', 'mega-knight-evo', 'mega-miner', 'mega-minion', 'miner', 'mini-pekka', 'minion-horde', 'minions', 'mirror', 'monk', 'mortar', 'mortar-evo', 'mother-witch', 'musketeer', 'musketeer-evo', 'mystery-card', 'night-witch', 'pekka', 'pekka-evo', 'phoenix', 'poison', 'prince', 'princess', 'rage', 'ram-rider', 'rascals', 'rocket', 'royal-delivery', 'royal-ghost', 'royal-giant', 'royal-giant-evo', 'royal-hogs', 'royal-recruits', 'royal-recruits-evo', 'rune-giant', 'skeleton-army', 'skeleton-barrel', 'skeleton-barrel-evo', 'skeleton-dragons', 'skeleton-king', 'skeletons', 'skeletons-evo', 'snowball', 'snowball-evo', 'sparky', 'spear-goblins', 'spirit-empress', 'suspicious-bush', 'tesla', 'tesla-evo', 'the-log', 'three-musketeers', 'tombstone', 'tornado', 'valkyrie', 'valkyrie-evo', 'void', 'wall-breakers', 'wall-breakers-evo', 'witch', 'witch-evo', 'wizard', 'wizard-evo', 'x-bow', 'zap', 'zap-evo', 'zappies']
+
+roboflow:
+  workspace: clash-game-vision
+  project: clash-royale-card-detection-ylzsc-fil7j
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/clash-game-vision/clash-royale-card-detection-ylzsc-fil7j/dataset/1
